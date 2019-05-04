@@ -34,7 +34,7 @@ with timeit("prime_factors test suite"):
     assert(list(prime_factors(2)) == [2])
     assert(list(prime_factors(3)) == [3])
     assert(list(prime_factors(5)) == [5])
-    assert(list(prime_factors(2 * 3 * 5 * 7)) == [2, 3, 5, 7])
+    assert(list(prime_factors(2 * 3 * 5 * 7 * 11 * 13)) == [2, 3, 5, 7, 11, 13])
     assert(list(prime_factors(2 * 2 * 3 * 3 * 5 * 5 * 7 * 7)) == [2, 2, 3, 3, 5, 5, 7, 7])
 
 with timeit("all_factors test suite"):
